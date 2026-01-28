@@ -19,11 +19,11 @@ async function getproducts() {
                 `
                 
                 
-                <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-12 col-lg-6">
                   
                 <div class="card h-100 shadow-sm rounded-4">
-               <img src="${data.image}"class="card-img-top rounded-4">
-                <div class="card-body d-flex flex-column bg-light rounded-4 mt-1">
+               <img src="${data.image}"class="card-img-top rounded-4 w-50">
+                <div class="card-body d-flex flex-column bg-light rounded-4 mt-1 w-50">
                     <p class="lead text-center mt-1">${data.category}</p>
                     <h6 class="fw-bold text-center fs-6 mb-2">${data.title}</h6>
                 
